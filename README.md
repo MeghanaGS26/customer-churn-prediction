@@ -26,6 +26,8 @@ Telco Customer Churn (IBM sample dataset): 7,043 customers with 20 features such
 
 **Best model:** Logistic Regression, which catches about 79% of customers who actually churn.
 
+> Random Forest has the highest accuracy but misses about half of the churners (recall 0.495). Since catching churners is the goal, Logistic Regression (and XGBoost) are the better choices.
+
 ## Key Insights
 - Month-to-month contract customers churn far more than those on 1- or 2-year contracts.
 - Customers in their first year are the most likely to leave.
