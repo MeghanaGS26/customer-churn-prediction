@@ -20,9 +20,9 @@ Telco Customer Churn (IBM sample dataset): 7,043 customers with 20 features such
 ## Results
 | Model | Accuracy | Recall | ROC-AUC |
 |---|---|---|---|
-| Logistic Regression | ... | 0.786 | 0.84 |
-| Random Forest | ... | ... | ... |
-| XGBoost | ... | ... | ... |
+| Logistic Regression | 0.740 | 0.786 | 0.841 |
+| Random Forest | 0.790 | 0.495 | 0.826 |
+| XGBoost | 0.752 | 0.786 | 0.839 |
 
 **Best model:** Logistic Regression, which catches about 79% of customers who actually churn.
 
